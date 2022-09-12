@@ -1,0 +1,236 @@
+Last login: Sat Sep 10 21:26:51 on console
+camilomottazambrano@Camilos-MacBook-Pro-2 ~ % git --version
+git version 2.33.0
+camilomottazambrano@Camilos-MacBook-Pro-2 ~ % cd /Users/camilomottazambrano/Desktop/Camilo/CURSOS/PROGRAMACION_Y_DESARROLLO_SOFTWARE/MISION\ TIC\ SERGIO\ ARBOLEDA/CICLO\ 3/GIT\ REPOSITORIO\ INICIAL
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   ejercicio.py
+
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git commit -m "primer commit"
+[master (root-commit) 82d4f9c] primer commit
+ Committer: Camilo Ernesto Motta Zambrano <camilomottazambrano@Camilos-MacBook-Pro-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 ejercicio.py
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git config user.name "utraincolombia@gmail.com"
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git config user.name "camiloMotta""            
+dquote> git config user.name "CamiloMotta"             
+dquote> git version                                    
+dquote> git --version
+dquote> "   
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git config user.name "CamiloMotta"
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git config email "utraincolombia@gmail.com"
+error: key does not contain a section: email
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git config user.email "utraincolombia@gmail.com"
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git git status
+git: 'git' is not a git command. See 'git --help'.
+
+The most similar command is
+	init
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git status
+On branch master
+nothing to commit, working tree clean
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git log
+commit 82d4f9ccf461e335a1b1f3e4642082fdd7b3e69d (HEAD -> master)
+Author: Camilo Ernesto Motta Zambrano <camilomottazambrano@Camilos-MacBook-Pro-2.local>
+Date:   Sat Sep 10 21:51:37 2022 -0500
+
+    primer commit
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   ejercicio.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git add .
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   ejercicio.py
+
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git commit -m "Cambio vectorsito"
+[master 95d2fcf] Cambio vectorsito
+ 1 file changed, 1 insertion(+)
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git log
+commit 95d2fcfd28f5e1f7e24edfe19aa0012194c5fc81 (HEAD -> master)
+Author: CamiloMotta <utraincolombia@gmail.com>
+Date:   Sun Sep 11 10:58:03 2022 -0500
+
+    Cambio vectorsito
+
+commit 82d4f9ccf461e335a1b1f3e4642082fdd7b3e69d
+Author: Camilo Ernesto Motta Zambrano <camilomottazambrano@Camilos-MacBook-Pro-2.local>
+Date:   Sat Sep 10 21:51:37 2022 -0500
+
+    primer commit
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   ejercicio.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git commit -m "Cambio imprimir vector"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   ejercicio.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git add .
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git commit -m "cambio imprimir vectorsito"
+[master 80cb548] cambio imprimir vectorsito
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git remote add origin https://github.com/camermo84/PruebaMinTic.git
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git add .
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git commit -m "Sabiendo a gitHub"
+On branch master
+nothing to commit, working tree clean
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git config user.name "Camilo Ernesto Motta Zambrano"
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git config user.email "utraincolombia@gmail.com"
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git add .
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git commit -m "cambio imprimir vectorsito"
+On branch master
+nothing to commit, working tree clean
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git remote add origin https://github.com/camermo84/PruebaMinTic.git
+error: remote origin already exists.
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git remote -b
+error: unknown switch `b'
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git remote -v
+origin	https://github.com/camermo84/PruebaMinTic.git (fetch)
+origin	https://github.com/camermo84/PruebaMinTic.git (push)
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git remote rm origin
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git remote add origin https://github.com/camermo84/PruebaMinTic.git
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git add .
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git commit -m "Cambio immprimir vectorsito"
+On branch master
+nothing to commit, working tree clean
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git branch
+* master
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   ejercicio.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git add .
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git commit -m "CommitCreandoSegundoVector"
+[master 0a34ad9] CommitCreandoSegundoVector
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git push origin master
+Username for 'https://github.com': utraincolombia@gmail.com
+Password for 'https://utraincolombia@gmail.com@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/camermo84/PruebaMinTic.git/'
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git push origin master
+Username for 'https://github.com': utraincolombia@gmail.com
+Password for 'https://utraincolombia@gmail.com@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/camermo84/PruebaMinTic.git/'
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git push origin master
+Username for 'https://github.com': Camilo Ernesto Motta Zambrano
+Password for 'https://Camilo Ernesto Motta Zambrano@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/camermo84/PruebaMinTic.git/'
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git push origin master
+Username for 'https://github.com': camermo84
+Password for 'https://camermo84@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/camermo84/PruebaMinTic.git/'
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git push origin master
+Username for 'https://github.com': utraincolombia@gmail.com
+Password for 'https://utraincolombia@gmail.com@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/camermo84/PruebaMinTic.git/'
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git push origin master
+Username for 'https://github.com': camermo84
+Password for 'https://camermo84@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/camermo84/PruebaMinTic.git/'
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git push origin master                     
+Username for 'https://github.com': utraincolombia@gmail.com
+Password for 'https://utraincolombia@gmail.com@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/camermo84/PruebaMinTic.git/'
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git push origin master
+Username for 'https://github.com': utraincolombia@gmail.com        
+Password for 'https://utraincolombia@gmail.com@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/camermo84/PruebaMinTic.git/'
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git push origin master
+Username for 'https://github.com': Camilo Ernesto Motta Zambrano
+Password for 'https://Camilo Ernesto Motta Zambrano@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/camermo84/PruebaMinTic.git/'
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git push origin master
+Username for 'https://github.com': camermo84
+Password for 'https://camermo84@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/camermo84/PruebaMinTic.git/'
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL % git push origin master
+Username for 'https://github.com': utraincolombia@gmail.com
+Password for 'https://utraincolombia@gmail.com@github.com': 
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (12/12), 1.12 KiB | 575.00 KiB/s, done.
+Total 12 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/camermo84/PruebaMinTic.git
+ * [new branch]      master -> master
+camilomottazambrano@Camilos-MacBook-Pro-2 GIT REPOSITORIO INICIAL %                                           
